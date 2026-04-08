@@ -48,7 +48,6 @@ header{
 .logo:hover{
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
-
 }
 
 .nav-links{
@@ -72,11 +71,13 @@ li a::before{
     top: 30px;
     border-radius: 1rem;
     transition: 0.5s ease-in-out;
-    background: linear-gradient(to right,seagreen,wheat );
+    background: linear-gradient(to right,rgb(46, 84, 72),sandybrown );
 }
 
 li a:hover::before{
     width: 100%;
+      transform: scale(1.1);
+    transition: 0.5s ease-in-out;
 }
 
 .visit-btn{
@@ -143,11 +144,11 @@ section{
 .info-box h3{
     font-size: 1.8rem;
     font-weight: 500;
-    opacity: 0.8;
-
+    color: navajowhite;
 }
 
 .info-box h1 {
+    padding: 6px;
     font-size: 4rem;
     font-weight: 600;
     font-family: 'great vibes';
@@ -158,7 +159,7 @@ section{
 }
 
 .info-box span{
-    background: linear-gradient(to right,wheat, seagreen);
+    background: radial-gradient(sandybrown, peru);
     background-clip: text;
     color: transparent;
     font-size: 2rem;
@@ -180,7 +181,8 @@ transition: 0.2s ease-in-out;
 }
 
 .btn:hover{
-    background-color: black;
+    background: radial-gradient(to right,rgb(46, 84, 72),sandybrown );
+
     color: white;
 }
 .socials{

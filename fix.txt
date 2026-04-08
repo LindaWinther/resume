@@ -1,0 +1,16 @@
+header
+all buttons size up when hover
+
+overall a bit of color and font fix     
+
+
+link cv
+link github, linkedin. 
+ad mail, number and city. 
+
+ad couarces
+
+link projects, remove livedemo
+
+
+rgb(46, 84, 72
