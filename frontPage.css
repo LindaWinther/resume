@@ -6,6 +6,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
     list-style: none;
+    
 
 }
 
@@ -26,76 +27,78 @@ header{
     padding: 0.5rem 1.5rem;
     border-radius: 3rem;
     z-index: 1000;
+    
 }
-
-.great-vibes-regular {
-    font-family: "Great Vibes", cursive;
-    text-underline-position: below;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
 
 .logo{
     color:  sandybrown ;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 400;
     text-wrap: nowrap;
     transition: 0.3s ease-in-out;
+    text-shadow: 3px 2px 5px black;
 }
-
-
 .logo:hover{
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
+}
+.logo ::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    left: 0;
+    height: 1px;
+    top: 28px;
+    border-radius: 1rem;
+    transition: 0.5s ease-in-out;
+    background: linear-gradient(to right,rgb(46, 84, 72),sandybrown );
+}
 
+.logo :hover::before{
+    width: 100%;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
 }
 
 .nav-links{
     display: flex;
     gap: 2rem;
+    text-wrap: nowrap;
+    text-shadow: 3px 2px 5px black;
 }
+
 
 li a{
     position: relative;
     color: sandybrown;
     font-weight: 300;
     transition: 0.3s ease-in-out;
+    
 }
+li:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
 
 li a::before{
     position: absolute;
     content: '';
     width: 0;
     left: 0;
-    height: 5px;
-    top: 30px;
+    height: 1px;
+    top: 25px;
     border-radius: 1rem;
     transition: 0.5s ease-in-out;
-    background: linear-gradient(to right,seagreen,wheat );
+    background: linear-gradient(to right,rgb(46, 84, 72),sandybrown );
 }
 
 li a:hover::before{
     width: 100%;
+      transform: scale(1.1);
+    transition: 0.5s ease-in-out;
 }
 
-.visit-btn{
-    padding: 0.8rem 1.5rem;
-    border-radius: 3rem;
-    border: none;
-    font-weight: 500;
-    font-size: 1rem;
-    color: wheat;
-    background: linear-gradient(to right,seagreen,wheat );
-    cursor: pointer;
-    text-wrap: nowrap;
-    transition: 0.5 ease-in-out;
-}
-
-.visit-btn:hover{
-    background: linear-gradient(to right,wheat, seagreen);
-    transform: scale(1.03);
-}
 
 #menu-icon{
     font-size: 2rem;
@@ -143,11 +146,11 @@ section{
 .info-box h3{
     font-size: 1.8rem;
     font-weight: 500;
-    opacity: 0.8;
-
+    color: navajowhite;
 }
 
 .info-box h1 {
+    padding: 6px;
     font-size: 4rem;
     font-weight: 600;
     font-family: 'great vibes';
@@ -158,7 +161,7 @@ section{
 }
 
 .info-box span{
-    background: linear-gradient(to right,wheat, seagreen);
+    background: radial-gradient(sandybrown, peru);
     background-clip: text;
     color: transparent;
     font-size: 2rem;
@@ -171,6 +174,10 @@ section{
 }
 
 .btn{
+    text-shadow: 3px 3px 5px black;
+    box-shadow: 5px;
+    color:sandybrown;
+    opacity: 85%;
     border-radius: 30rem;
     padding: 0.5rem 1.5rem;
     cursor: pointer;
@@ -180,19 +187,20 @@ transition: 0.2s ease-in-out;
 }
 
 .btn:hover{
-    background-color: black;
-    color: white;
+    transform: scale(1.2);
 }
 .socials{
-    
     display: flex;
     gap: 2rem;
 }
 
 .socials i{
+    text-shadow: 3px 3px 5px black;
 font-size: 2.5rem;
 cursor: pointer;
 transition: 0.2 ease-in-out;
+color:sandybrown;
+opacity: 75%;
 }
 
 .socials i:hover{
