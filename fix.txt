@@ -1,16 +1,18 @@
 header
-all buttons size up when hover
+all buttons size up when hover -
 
 overall a bit of color and font fix     
 
 
 link cv
-link github, linkedin. 
+link github, linkedin.  -
 ad mail, number and city. 
 
-ad couarces
+ad courses
 
 link projects, remove livedemo
 
 
-rgb(46, 84, 72
+rgb(46, 84, 72)
+sandybrown
+peru
