@@ -13,7 +13,8 @@ ad courses
 link projects, remove livedemo
 
 
-rgb(46, 84, 72)
+#2e5448
+rgb(59, 100, 87)
 background: rgb(71, 113, 100);
 
 sandybrown
