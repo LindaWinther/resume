@@ -460,15 +460,15 @@ font-size: 2.5rem;
     }
     .nav-links{
         position: absolute;
-        top: 50%;
+        top: 90%;
+        left: 50%;
         margin-top: 1rem;
-        width: 50%;
         padding: 1rem;
         color: beige;
         display: flex;
         flex-direction: column;
         text-align: center;
-        background-color: rgb(46, 84, 72);
+        background-color:rgb(71, 113, 100) ;
         backdrop-filter: blur(6px);
         border-radius: 3rem;
         display: none;
@@ -478,6 +478,7 @@ font-size: 2.5rem;
         padding: 1rem;
     }
     .nav-links.active{
+        left: 50%;
         display: block;
     }
     header{
